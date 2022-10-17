@@ -16,6 +16,33 @@ align-items: center;
 justify-content: center;
 }
 
+.image {
+   opacity: 1;
+   display: block;
+   /* width: 100%; */
+   /* height: auto; */
+   transition: .1s ease;
+   backface-visibility: hidden;
+ }
+
+.img_responsive{ 
+   width:100%;
+   opacity: 1;
+   display: block;
+   /* width: 100%; */
+   /* height: auto; */
+   transition: .1s ease;
+   backface-visibility: hidden;
+}
+
+ .mycontainer:hover .image {
+   opacity: 0.3;
+ }
+ 
+ .mycontainer:hover .middle {
+   opacity: 1;
+ }
+
 .mybutton{
    background-color:#ff0000;
    color:white;
@@ -93,9 +120,7 @@ br{
 section{ 
 
 }
-.img_responsive{ 
- width:100%
- }
+
 .button{ 
 font-size: 18px;
 border: 1px solid #3c3c3c;
