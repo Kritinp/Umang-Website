@@ -242,6 +242,9 @@ body {
 .about_1 {
  width: 80%;
 }
+.about_1 h1{
+    font-size:40px !important
+}
 #blog {
  text-align: center;
 }
